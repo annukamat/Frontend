@@ -1,0 +1,56 @@
+#header {
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	color: #fff;
+	position: relative;
+}
+
+#header .top-pattern {
+	position: absolute;
+	width: 100px;
+	height: 160px;
+	top: 0;
+}
+
+#header .rec {
+	background-color: rgb(177, 94, 201);
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#header h1 {
+	font-size: 48px;
+	width: 541px;
+	font-weight: 300;
+	font-style: normal;
+	font-weight: bold;
+}
+#header h3 {
+	width: 352px;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+}
+
+#header p {
+	font-size: 1.25rem;
+	font-weight: 300;
+	width: 633px;
+	font-style: normal;
+	font-weight: 300;
+}
+#header .btn-start {
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 16px 30px;
+	border-radius: 30px;
+	transition: 0.5s;
+	overflow: hidden;
+	color: rgb(177, 94, 201);
+	background-color: #fff;
+	border: 2px solid #fff;
+	width: 230px;
+}

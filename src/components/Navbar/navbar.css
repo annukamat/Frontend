@@ -1,0 +1,35 @@
+.navbar {
+	position: fixed !important ;
+	color: #fff;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+	display: flex;
+}
+
+.navbar.active {
+	background-color: #fff;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+	display: flex;
+}
+
+.navbar ul {
+	display: flex !important;
+	flex-direction: row;
+}
+
+.navbar .nav-icon {
+	width: 18px;
+	height: 20px;
+	margin: 0.5rem;
+}
+
+.logo {
+	width: 60%;
+	height: 5%;
+	padding-left: 5rem;
+}
+
+.navbar .apple-store {
+	width: 70%;
+}
