@@ -28,62 +28,70 @@ const Navbar = () => {
 			<div className="nav-bg">
 				<div className="row">
 					<div className="col-12">
-						<nav className={navbar ? "navbar bg active" : "navbar bg"}>
-							<NavLink exact className="navbar-brand" to="/">
-								<strong>
-									<img
-										className="logo"
-										src={logo}
-										width="30"
-										height="30"
-										alt="logo"
-										loading="lazy"
-									></img>{" "}
-								</strong>
-							</NavLink>
+						<div className="row">
+							<nav
+								className={
+									navbar
+										? "navbar bg active col-10 mx-auto"
+										: "navbar bg col-10"
+								}
+							>
+								<NavLink exact className="navbar-brand ml-4" to="/">
+									<strong>
+										<img
+											className="logo"
+											src={logo}
+											width="30"
+											height="30"
+											alt="logo"
+											loading="lazy"
+										></img>{" "}
+									</strong>
+								</NavLink>
 
-							<ul className="navbar-nav ml-auto d-flex">
-								<Link to="facebook.com">
-									<img className="logo-fb nav-icon" src={FB} alt="fb"></img>
-								</Link>
+								<ul className="navbar-nav ml-auto mr-4 d-flex">
+									<Link to="facebook.com" className="pt-1 pr-2">
+										<img className="logo-fb nav-icon" src={FB} alt="fb"></img>
+									</Link>
 
-								<Link to="linkedIn.com">
-									<img
-										className="logo-linkedin nav-icon"
-										src={Linkedin}
-										alt="linkedin"
-									></img>
-								</Link>
-								<Link to="linkedIn.com">
-									<img
-										className="logo-twitter nav-icon"
-										src={Twitter}
-										alt="twitter"
-									></img>
-								</Link>
-								<Link to="linkedIn.com">
-									<img
-										className="logo-insta nav-icon"
-										src={Insta}
-										alt="insta"
-									></img>
-								</Link>
-								<Link to="linkedIn.com">
-									<img
-										className="logo-logo1 nav-icon"
-										src={logo1}
-										alt="logo1"
-									></img>
-								</Link>
-								<Link to="/">
-									<img
-										src={AppleStore}
-										className="apple-store ml-2"
-										alt="apple-store"
-									></img>
-								</Link>
-							</ul>
-						</nav>
+									<Link to="linkedIn.com" className="pt-1 pr-2">
+										<img
+											className="logo-linkedin nav-icon"
+											src={Linkedin}
+											alt="linkedin"
+										></img>
+									</Link>
+									<Link to="linkedIn.com" className="pt-1 pr-2">
+										<img
+											className="logo-twitter nav-icon"
+											src={Twitter}
+											alt="twitter"
+										></img>
+									</Link>
+									<Link to="linkedIn.com" className="pt-1 pr-2">
+										<img
+											className="logo-insta nav-icon"
+											src={Insta}
+											alt="insta"
+										></img>
+									</Link>
+									<Link to="linkedIn.com" className="pt-1 pr-1">
+										<img
+											className="logo-logo1 nav-icon"
+											src={logo1}
+											alt="logo1"
+										></img>
+									</Link>
+									<Link to="/">
+										<img
+											src={AppleStore}
+											className="apple-store ml-2"
+											alt="apple-store"
+										></img>
+									</Link>
+								</ul>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>

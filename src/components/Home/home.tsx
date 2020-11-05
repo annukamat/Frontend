@@ -20,18 +20,19 @@ class Home extends React.Component {
 									backgroundImage: `url(${Pattern})`,
 									backgroundRepeat: "no-repeat",
 									backgroundPositionX: "100%",
-									backgroundSize: "60%",
+									backgroundSize: "61%",
 								}}
 							>
 								<div className="row">
-									<div className="col-md-6 m-auto pt-5 pt-lg-3 d-flex justify-content-center flex-column">
+									<div className="col-md-5 col-lg-5 m-auto d-flex justify-content-center flex-column left-grp">
 										<h1>
 											Not Your Typical
 											<br /> Investing App
 										</h1>
-										<h3>Invest with Intention</h3>
-										<p className="mt-3">
-											Alinea makes responsible investing fun, easy, and social.
+										<h3 className="mt-3">Invest with Intention</h3>
+										<p className="">
+											Alinea makes responsible investing fun,
+											<br /> easy, and social.
 										</p>
 										<div>
 											<form>
@@ -46,7 +47,7 @@ class Home extends React.Component {
 											</form>
 										</div>
 									</div>
-									<div className="col-md-6 col-lg-5 header-img">
+									<div className="col-md-6 col-lg-6 header-img rt-grp">
 										<img
 											className="img-fluid mobile-gif"
 											src={Group}
