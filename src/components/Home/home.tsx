@@ -59,16 +59,6 @@ class Home extends React.Component {
 						</div>
 					</div>
 				</section>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
-				<h1>hi</h1>
 			</>
 		);
 	}
